@@ -1,3 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 
-/*.attribution { font-size: 11px; text-align: center; }
+/******************* STRUCTURE STYLES ********************/
+html {
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    width: 100%;
+    font-size: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+main {
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+    margin-top: 85px;
+    width: 85.6%;    
+    max-width:375px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    border-radius: 15px;
+}
+
+/************************ HERO **************************/
+
+.hero {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.hero figure {
+    width: 100%;
+}
+
+img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+/************************ CONTENTS ***********************/
+
+.content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    margin-top: 30px;
+    padding-bottom: 44px;
+}
+
+.content .container {
+    width: 79%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    margin-top: 0;
+}
+
+h1 {
+    font-size: 1.7em;
+    color: hsl(218, 44%, 22%);
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+p {
+    color: hsl(220, 15%, 55%);
+    text-align: center;
+    font-size: 1.23em;
+}
+
+/************************ FOOTER ***********************/
+footer {
+    width: 100%;
+    font-size: 0.733em;
+    text-align: center;
+    margin-top: 85px;
+}
+
+footer a {
+    color: hsl(228, 45%, 44%);
+}
+/* Footer styles
+.attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }*/
